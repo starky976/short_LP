@@ -1,0 +1,33 @@
+.c-inner {
+  position: relative;
+  margin: 0 auto 0;
+  width: 82.25%;
+  max-width: 1152px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+  .logo {
+    font-size: 28px;
+    font-weight: bold;
+    color: #fff;
+  }
+  .p-gnavi {
+    color: #fff;
+    font-size: 20px;
+
+    position: relative;
+    .list {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      list-style: none;
+      > li {
+        padding-left: 20px;
+        flex: 1 0 auto;
+      }
+    }
+  }
+}
